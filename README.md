@@ -15,6 +15,7 @@ Müfide GÜLEKEN and Nithish Krishnabharathi GNANI
 * DOF1_Inverted_Pendulum_Simulation.m - Simulink code for the inverted pendulum model simulation. This should be run after running the parameters code.
 * DOF2_Simulation.m - MATLAB code for the simulation of the 2 DOF translational system. The parameters for this is included in the script. It uses ode45 for the simulation.
 * LQR_Calc_Sigi2D.m - MATLAB code for the LQR controller design for the 2 DOF translational system. This is a function that is used in the DOF2_Simulation.m code. This is called automatically.
+
 After compiling, the Simulink model can be run in different modes on the Raspberry Pi:
 1. Normal mode simulation without Simulink IO: The model resides on the computer and the simulation is run independent from the Sigi hardware
 2. Normal mode simulation with Simulink IO: The model is run in simulation mode on the computer, but the peripheral data is gathered by the actual hardware 
